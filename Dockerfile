@@ -1,5 +1,4 @@
-# FROM hypriot/rpi-node:4.1-slim
-FROM node:4.1-slim
+FROM hypriot/rpi-node:4.1-slim
 
 RUN npm install -g \
   nodemon
